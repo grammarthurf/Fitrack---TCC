@@ -1,0 +1,74 @@
+page-alimentos {
+
+    h5 {
+        margin-block-start: 0em !important;
+        margin-block-end: 0em !important;
+    }
+
+    .bg-alimentos {
+        width: 100%;
+        height: fit-content;
+        background-image: url('https://wallpapers-house.com/data/out/8/wallpaper2you_234183.jpg');
+        
+    }
+
+    .featured-title {
+        color: #fff;
+        font-weight: 700;
+        margin-top: 0% !important;
+        padding-top: 15px;
+        padding-left: 3%;
+        text-align: left;
+    }
+
+    .porc {
+        padding-left: 3%;
+        margin-top: 0px;
+        text-align: left;
+        color: #fff;
+        font-weight: 200;
+    }
+
+    .item-ios {
+        background-color: transparent !important;
+    }
+
+    .border-img {
+        border: 2px solid #fff;
+        width: 80px !important;
+        height: 80px !important;
+    }   
+    
+    .alimento {
+        color: #fff;
+        font-weight: 700;
+        width: 80%
+    }
+
+    ion-item {
+        border-top: 0px !important;
+        border-bottom: 2px solid #fff !important;
+        padding: 5px 0px !important
+    }
+
+    ion-list {
+        margin-top: 10px !important;
+    }
+
+    ion-avatar {
+        padding-left: 20px;
+    }
+
+    .alimento-desc {
+        color: #fff;
+        font-size: 100;
+        font-size: 12px;
+        font-style: italic;
+        width: 80%
+    }
+
+    .item-inner {
+        border-bottom: 0px !important
+    }
+
+}

@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Dicas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides pager class="slides">
+      <ion-slide *ngFor="let d of dicas" [ngStyle]="{ 'background-image': 'url(' + d.imagem + ')'}" class="slide" >
+
+        <div class="div-dica">
+          <p class="dica">{{ d.dica }}</p>
+        </div>
+        <div class="div-desc">
+            <p class="desc">{{ d.descricao }}</p>
+          </div>
+
+      </ion-slide>
+    </ion-slides>
+</ion-content>
+

@@ -1,0 +1,7 @@
+{
+  "name": "Fitrack",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

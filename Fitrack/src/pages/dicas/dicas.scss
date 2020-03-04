@@ -1,0 +1,61 @@
+page-dicas {
+
+    // .toolbar-background {
+    //     background: #00687a;
+    //     border: none !important
+    // }
+
+    .slides {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top: 0%;
+    }
+
+    .slide {
+        width: 100% !important;
+        margin-left: 0%;
+        border-radius: 0px;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .div-dica {
+        position: absolute;
+        top: 13%;
+        left: 20%;
+        right: 20%;
+    }
+
+    .div-desc {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .dica {
+        color: #fff;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .desc {
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #fff !important
+    }
+
+    // .left20{
+    //     margin-left: 20% !important
+    // }
+
+
+}

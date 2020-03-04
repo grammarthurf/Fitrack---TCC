@@ -1,0 +1,105 @@
+<ion-content>
+  <!-- LOGIN -->
+  <div class="bg-login" *ngIf="login" [@login]>
+
+    <!-- OVERLAY -->
+    <div class="overlay">
+      <!-- ESTRUTURA LOGIN -->
+      <div>
+        <!-- LOGO -->
+        <div class="center padding-top-20-percent">
+          <img src="assets/imgs/fit2.png" class="logo1">
+        </div>
+
+        <!-- TEXTOS -->
+        <div class="mg-top-30">
+          <h5 class="snow center bold no-margin">
+            Seja bem-vindo!
+          </h5>
+
+          <p class="snow center light no-margin mg-top-5">
+            Entre com a sua conta para continuar
+          </p>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <div class="padding-40">
+          <ion-item class="bg-transparent no-padding">
+              <ion-label stacked class="formEmail">E-mail</ion-label>
+              <ion-input type="email" class="snow" [(ngModel)]="loginForm.email"></ion-input>
+          </ion-item>
+
+          <ion-item class="bg-transparent no-padding mg-top-20">
+            <ion-label stacked class="formEmail">Senha</ion-label>
+            <ion-input type="password" class="snow" [(ngModel)]="loginForm.password"></ion-input>
+          </ion-item>
+
+          <div class="ctaLogin center bold mg-top-30" (click)="fazerLogin()">
+            Entrar
+          </div>
+          <!-- CRIAR NOVA CONTA -->
+          <div class="txtRegister center bold mg-top-10" (click)="exibirRegistrar()">
+            Inscreva-se
+          </div>
+
+          <div class="txtRegister center bold mg-top-10" (click)="trocarSenha(loginForm.email)">
+            Esqueceu sua senha ?
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <!-- REGISTRO -->
+  <div class="bg-register" *ngIf="register" [@registro]>
+
+    <!-- OVERLAY -->
+    <div class="overlay">
+      <div>
+
+        <!-- LOGO -->
+        <div class="center padding-top-20-percent">
+          <img src="assets/imgs/fit2.png" class="logo1">
+        </div>
+
+        <!-- TEXTOS -->
+        <div class="mg-top-30">
+          <h5 class="snow center bold no-margin">
+            Vamos lá!
+          </h5>
+
+          <p class="snow center light no-margin mg-top-5">
+            Crie sua conta 
+          </p>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <div class="padding-40">
+          <ion-item class="bg-transparent no-padding">
+              <ion-label stacked class="snow bold">Qual o seu e-mail?</ion-label>
+              <ion-input type="email" class="snow" [(ngModel)]="registerForm.email"></ion-input>
+          </ion-item>
+
+          <ion-item class="bg-transparent no-padding mg-top-20">
+            <ion-label stacked class="snow bold">Escolha sua senha</ion-label>
+            <ion-input type="password" class="snow" [(ngModel)]="registerForm.password"></ion-input>
+          </ion-item>
+
+          <!-- CRIAR CONTA-->
+          <div class="ctaLogin center bold mg-top-30" (click)="criarNovaConta()">
+            Cadastrar
+          </div>
+
+          <!-- JÁ TEM CONTA -->
+          <div class="txtRegister center bold mg-top-10" (click)="exibirLogin()">
+            Já tenho uma conta
+          </div>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+</ion-content>

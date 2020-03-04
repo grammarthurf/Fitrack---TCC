@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Alimentos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  
+  <div class="bg-alimentos">
+    <div>
+      <h5 class="featured-title">Salgados</h5>
+      <p class="porc"> Porções de 100g </p>
+      <ion-list>
+          <ion-item *ngFor="let a of alimentos">
+            <ion-avatar item-start>
+              <img class="border-img" [src]="a.imagem">
+            </ion-avatar>
+            <h3 class="alimento">{{a.nome}}</h3>
+            <p class="alimento-desc">Calorias: {{a.calorias}}cal</p>
+            <p class="alimento-desc">Carboidratos: {{a.carboidratos}}g</p>
+            <p class="alimento-desc">Proteínas: {{a.proteinas}}g</p>
+            <p class="alimento-desc">Gorduras: {{a.gorduras}}g</p>
+          </ion-item>
+        </ion-list>
+    </div>
+
+    <div>
+      <h5 class="featured-title">Doces</h5>
+      <ion-list>
+        <ion-item *ngFor="let s of sobremesas">
+          <ion-avatar item-start>
+            <img class="border-img" [src]="s.imagem">
+          </ion-avatar>
+          <h3 class="alimento">{{s.nome}}</h3>
+          <p class="alimento-desc">Calorias: {{s.calorias}}cal</p>
+          <p class="alimento-desc">Carboidratos: {{s.carboidratos}}g</p>
+          <p class="alimento-desc">Proteínas: {{s.proteinas}}g</p>
+          <p class="alimento-desc">Gorduras: {{s.gorduras}}g</p>
+        </ion-item>
+      </ion-list>
+    </div>
+
+  </div>
+
+</ion-content>      
+
+  <!-- <div>
+    <h5 class="featured-title">Salgados</h5>
+    <p> Porções de 100g </p>
+    <ion-list>
+        <ion-item *ngFor="let a of alimentos">
+          <ion-avatar item-start>
+            <img class="border-img" [src]="a.imagem">
+          </ion-avatar>
+          <h3 class="alimento">{{a.nome}}</h3>
+          <p class="alimento-desc">Calorias: {{a.calorias}}</p>
+          <p class="alimento-desc">Carboidratos: {{a.carboidratos}}</p>
+          <p class="alimento-desc">Proteínas: {{a.proteinas}}</p>
+          <p class="alimento-desc">Gorduras: {{a.gorduras}}</p>
+        </ion-item>
+      </ion-list>
+  </div>
+
+  <div>
+      <h5 class="featured-title">Doces</h5>
+      <ion-list>
+          <ion-item *ngFor="let s of sobremesas">
+            <ion-avatar item-start>
+              <img class="border-img" [src]="s.imagem">
+            </ion-avatar>
+            <h3 class="alimento-title">{{s.nome}}</h3>
+            <p class="alimento-description">Calorias: {{s.calorias}}</p>
+            <p class="alimento-description">Carboidratos: {{s.carboidratos}}</p>
+            <p class="alimento-description">Proteínas: {{s.proteinas}}</p>
+            <p class="alimento-description">Gorduras: {{s.gorduras}}</p>
+          </ion-item>
+        </ion-list>
+    </div> -->
+
+
+

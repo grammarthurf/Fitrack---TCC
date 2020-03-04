@@ -1,0 +1,77 @@
+{
+    "items": [
+        {
+            "name": "Arroz",
+            "children": [
+                {
+                    "name": "Calorias" ,
+                    "information": "200"
+                },
+                {
+                    "name": "Carboidratos" ,
+                    "information": "-"
+                },
+                {
+                    "name": "Proteínas",
+                    "information": "-"
+                },
+                {
+                    "name": "Gorduras",
+                    "information": "-"
+                }
+            ]
+        },
+        {
+            "name": "Feijão",
+            "children": [
+                {
+                    "name": "Carboidratos",
+                    "information": "-"
+                },
+                {
+                    "name": "Proteínas",
+                    "information": "-"
+                },
+                {
+                    "name": "Gorduras",
+                    "information": "-"
+                }
+            ]
+        },
+        {
+            "name": "Macarrão",
+            "children": [
+                {
+                    "name": "Carboidratos",
+                    "information": "-"
+                },
+                {
+                    "name": "Proteínas",
+                    "information": "-"
+                },
+                {
+                    "name": "Gorduras",
+                    "information": "-"
+                }
+            ]
+        },
+        {
+            "name": "Batata Doce",
+            "children": [
+                {
+                    "name": "Carboidratos",
+                    "information": "-"
+                },
+                {
+                    "name": "Proteínas",
+                    "information": "-"
+                },
+                {
+                    "name": "Gorduras",
+                    "information": "-"
+                }
+            ]
+        }
+        
+    ]
+}

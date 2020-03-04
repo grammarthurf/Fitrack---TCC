@@ -1,0 +1,51 @@
+<ion-content>
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<div class="bg-home bg-grafico">
+  <ion-card>
+    <ion-card-header class="border tittles">
+      Meta de Calorias <div class="button" (click)="showPrompt()"> + </div>
+    </ion-card-header>
+    <ion-card-content class="border">
+      <canvas #doughnutCanvas></canvas>
+    </ion-card-content>
+  </ion-card> 
+
+  <div class="bg-turnos border">
+    <div>
+      <h5 class="tittles">Café da Manhã</h5>
+      <div class="button" (click)="showCheckbox1()"> + </div>
+    </div>
+    <ion-list>
+      <ol class="ol"> {{ i }} </ol>
+    </ion-list>
+  </div>
+
+  <div class="bg-turnos border">
+    <div>
+      <h5 class="tittles">Almoço</h5>
+      <div class="button" (click)="showCheckbox2()"> + </div>
+    </div>
+    <ion-list>
+      <ol class="ol"> {{ f }} </ol>
+    </ion-list>
+  </div>
+
+  <div class="bg-turnos border">
+    <div>
+      <h5 class="tittles">Janta</h5>
+      <div class="button" (click)="showCheckbox3()"> + </div>
+    </div>
+    <ion-list>
+      <ol class="ol"> {{ g }} </ol>
+    </ion-list>
+  </div>
+</div>
+
+</ion-content>
+
+

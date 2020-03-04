@@ -1,0 +1,70 @@
+page-home {
+
+    .bg-home {
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://images6.alphacoders.com/330/330082.jpg');
+    }
+
+    .bg-grafico {
+        border-top-width: 5px;
+        font-size: 13px;
+        color: 252233;
+        border-radius: 5px;
+        margin-top: 15px;
+        padding-top: 30px;
+    }
+
+    .bg-turnos {
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        margin-top: 10px;
+        height: 18%;
+    }
+
+    .border {
+        border: 0px solid black;
+        padding-left: 5px;
+        background-image: url('https://image.shutterstock.com/image-illustration/abstract-white-interior-highlights-future-260nw-564384325.jpg');
+    }
+
+    .button {
+        width: 10%;
+        height: 25px;
+        padding: 20px;
+        padding-top: 3px;
+        padding-right: 30px;
+        margin-right: 10px;
+        background-image: url('../assets/imgs/1234.jpg');
+        color: white;
+        border-radius: 10px;
+        float: right;
+        line-height:20px;
+        
+    }
+
+    .tittles {
+        padding-left: 10px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: left;
+        font-weight: bold;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .ol {
+        padding-left: 5px;
+        margin-right: 60px;
+        color: #000;
+        font-size: 15px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        padding-right: 15px;
+    }
+
+    element.style {
+        margin-bottom: 24px !important;
+    }
+
+}
+
